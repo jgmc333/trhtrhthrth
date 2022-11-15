@@ -7,7 +7,7 @@ export UUID=56c4646f-2468-464e-b5ad-689e62b39c64
 export ProxySite=www.google.gg
 
 #端口，如无特殊需求请勿更改,如果要改请一并修改dockerfile中的端口
-export Port=14580
+export Port=8080
 
 
 cd /tomcat
