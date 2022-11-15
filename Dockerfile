@@ -17,6 +17,6 @@ RUN apk update && \
     rm -rf /etc/nginx/conf.d/* && \
     chmod +x start.sh
 
-EXPOSE 14580
+EXPOSE 8080
 
 CMD /tomcat/start.sh
